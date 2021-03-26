@@ -11,7 +11,7 @@ export const databaseProviders = [
         useFactory: async () => {
           const sequelize = new Sequelize(configService.getDatabaseUrl(), configService.getSequelizeConfig());
             sequelize.addModels([UserModel, CheckerModel]);
-            // await sequelize.sync();
+            await sequelize.sync();
             return sequelize;
         },
     },
