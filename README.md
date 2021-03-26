@@ -1,9 +1,9 @@
 # **PLAGIARISM CHECKER**.
 
 ### Check out the API by clicking the following links:
--  #### [Deployed API URL]()
+-  #### [Deployed API URL](https://plagiarism-app-checker.herokuapp.com/api)
 -  #### [Postman Doc]()
-- #### [Swagger Doc]()
+- #### [Swagger Doc](https://plagiarism-app-checker.herokuapp.com/api/docs)
 <br />
 
 ### Description

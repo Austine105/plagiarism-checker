@@ -68,7 +68,7 @@ class ConfigService {
       // password: this.getValue('POSTGRES_PASSWORD'),
       // database: this.getValue('POSTGRES_DATABASE'),
       // port: parseInt(this.getValue('POSTGRES_PORT'), 10),
-      timezone: this.getValue('TIMEZONE'),
+      // timezone: this.getValue('TIMEZONE'),
       dialect: 'postgres',
       logging: false,
       autoLoadModels: true,
