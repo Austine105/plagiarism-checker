@@ -83,12 +83,12 @@ class ConfigService {
 
 const configService = new ConfigService(process.env)
   .ensureValues([
-    'POSTGRES_HOST',
-    'POSTGRES_USERNAME',
-    'POSTGRES_PASSWORD',
-    'POSTGRES_DATABASE',
-    'POSTGRES_PORT',
-    'TIMEZONE',
+    // 'POSTGRES_HOST',
+    // 'POSTGRES_USERNAME',
+    // 'POSTGRES_PASSWORD',
+    // 'POSTGRES_DATABASE',
+    // 'POSTGRES_PORT',
+    // 'TIMEZONE',
     'JWT_SECRET',
     'EXPIRES_IN',
     'SALT_ROUNDS'
