@@ -16,6 +16,8 @@ export class AllExceptionsFilter implements ExceptionFilter {
     let status = HttpStatus.INTERNAL_SERVER_ERROR;
     let error: Error[] = [];
 
+    console.log('exception: ' + JSON.stringify(exception));
+    
     // HttpException
     if (exception instanceof HttpException) {
       status = exception.getStatus();
